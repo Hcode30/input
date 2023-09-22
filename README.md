@@ -1,4 +1,4 @@
-# simple Input In GO
+# Simple Input In GO
 
 Input is a Go package that provides a simple and efficient way to prompt users for input in the command line.
 With a simple Input Function, developers can save time and effort by eliminating the need to deal with pointers or addresses, and by allowing them to input multiple values in a single line of code.
@@ -36,7 +36,7 @@ To get multiple input values, call the input function with multiple prompts and 
 ```go
 inputs := i.Input("Enter your name: ", "Enter your age: ", "Enter your gender: ") // John 21 Male
 name, age, gender := inputs[0], inputs[1], inputs[2] // name = "John" , age = "21" , gender = "Male"
-fmt.Printf("Hello %s, you are %s years old and you are a %s.\n", name, age, gender) //Hello John, you are 21 years old and you are a Male.\n
+fmt.Printf("Hello %s, you are %s years old and you are a %s.\n", name, age, gender) //Hello John, you are 21 years old and you are a Male.
 ```
 
 # Getting input values in a loop
@@ -60,4 +60,4 @@ If you find a bug or have a feature request, please open an issue on GitHub. Pul
 
 # License
 
-This package is licensed under the MIT License.
+This is an open source package ... Enjoy .
