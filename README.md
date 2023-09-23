@@ -20,6 +20,10 @@ To use the function, import it in your Go code:
 import i "github.com/Hcode00/simpleInput"
 ```
 
+     
+### note that all the outputs are strings    
+   
+
 # Getting a single input value
 
 To get a single input value, call the input function with a single prompt and retrieve the first element of the resulting slice:
@@ -28,6 +32,7 @@ To get a single input value, call the input function with a single prompt and re
 name := i.Input("Enter your name: ")[0] // John
 fmt.Printf("Hello %s.\n", name) // Hello John
 ```
+
 
 # Getting multiple input values
 
